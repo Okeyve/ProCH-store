@@ -5,7 +5,7 @@
   justify-content: space-between;
   position: fixed;
   background-color: #2ecc71;
-  color: #FFF;
+  color: #fff;
   width: 100%;
   height: 80px;
   top: 0;
@@ -120,7 +120,7 @@
     margin: 0;
     padding: 0.5em 0;
     width: 100%;
-    color: white;
+    color: #fff;
     background-color: #222;
     font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
     font-weight: 500;
@@ -131,11 +131,13 @@
   .menu > li a {
     text-decoration: none;
     color: #fff;
+    font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
+    font-weight: 500;
   }
 }
 
 .centered-text {
-  color: #ffffff;
+  color: #fff;
   position: absolute;
   top: 50%;
   left: 50%;
