@@ -16,8 +16,8 @@
   position: absolute;
   width: auto;
   height: 50px;
-  top: 16%;
-  left: 3%;
+  top: 14px;
+  left: 14px;
 }
 
 .menu {
@@ -52,7 +52,9 @@
 }
 
 .menu-button,
+
 .menu-button::before,
+
 .menu-button::after {
   display: block;
   background-color: #fff;
@@ -110,7 +112,7 @@
   font-weight: 600;
 }
 
-.Bt {
+.Bta {
   display: block;
   border-width: 5px;
   border-color: rgb(255, 255, 255);
@@ -119,40 +121,332 @@
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 8px 20px 0px rgba(100, 100, 100, 0.3);
   position: absolute;
-  left: 22%;
-  top: 9%;
-  width: 25%;
-  height: 10%;
+  top: 10%;
+  left: 14%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+  height: 7%;
   z-index: -1;
 }
 
-.Bt .paint {
+.Bta .logom {
   display: block;
   width: auto;
   height: 42%;
   position: absolute;
-  top: 13%;
-  left: 35%;
+  top: 20%;
+  left: 36%;
+  transform: translate ( -50%, -50%);
   margin-right: 50%;
   z-index: -1;
 }
 
-.Bt .text {
+.Bta .text {
   display: block;
   position: absolute;
-  top: 48%;
-  left: 27%;
-  font-size: 30px;
+  top: 60%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  font-size: 22px;
   font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
-  font-weight: 450;
+  font-weight: 400;
+  z-index: -1;
+  }
+
+.Btb {
+  display: block;
+  border-width: 5px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 20px 0px rgba(100, 100, 100, 0.3);
+  position: absolute;
+  top: 10%;
+  left: 38%;
+  transform: translate( -50%, -50%);
+  width: 20%;
+  height: 7%;
+  z-index: -1;
+}
+
+.Btb .perfil {
+  display: block;
+  width: auto;
+  height: 42%;
+  position: absolute;
+  top: 10%;
+  left: 36%;
+  transform: translate ( -50%, -50%);
+  margin-right: 50%;
+  z-index: -1;
+}
+
+.Btb .text {
+  display: block;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  font-size: 19px;
+  font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
+  font-weight: 350;
+  z-index: -1;
+  }
+
+.Btc {
+  display: block;
+  border-width: 5px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 20px 0px rgba(100, 100, 100, 0.3);
+  position: absolute;
+  top: 10%;
+  left: 62%;
+  transform: translate( -50%, -50%);
+  width: 20%;
+  height: 7%;
+  z-index: -1;
+}
+
+.Btc .edi {
+  display: block;
+  width: auto;
+  height: 42%;
+  position: absolute;
+  top: 10%;
+  left: 36%;
+  transform: translate ( -50%, -50%);
+  margin-right: 50%;
+  z-index: -1;
+}
+
+.Btc .text {
+  display: block;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  font-size: 18px;
+  font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
+  font-weight: 400;
+  z-index: -1;
+  }
+
+.Btd {
+  display: block;
+  border-width: 5px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 20px 0px rgba(100, 100, 100, 0.3);
+  position: absolute;
+  top: 10%;
+  left: 86%;
+  transform: translate( -50%, -50%);
+  width: 20%;
+  height: 7%;
+  z-index: -1;
+}
+
+.Btd .sop {
+  display: block;
+  width: auto;
+  height: 36%;
+  position: absolute;
+  top: 16%;
+  left: 39%;
+  transform: translate ( -50%, -50%);
+  margin-right: 50%;
+  z-index: -1;
+}
+
+.Btd .text {
+  display: block;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  font-size: 18px;
+  font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
+  font-weight: 400;
+  z-index: -1;
+  }
+
+.Bte {
+  display: block;
+  border-width: 5px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 20px 0px rgba(100, 100, 100, 0.3);
+  position: absolute;
+  top: 19%;
+  left: 14%;
+  transform: translate( -50%, -50%);
+  width: 20%;
+  height: 7%;
+  z-index: -1;
+}
+
+.Bte .thumb {
+  display: block;
+  width: auto;
+  height: 42%;
+  position: absolute;
+  top: 20%;
+  left: 36%;
+  transform: translate ( -50%, -50%);
+  margin-right: 50%;
+  z-index: -1;
+}
+
+.Bte .text {
+  display: block;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  font-size: 22px;
+  font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
+  font-weight: 400;
+  z-index: -1;
+  }
+
+.Btf {
+  display: block;
+  border-width: 5px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 20px 0px rgba(100, 100, 100, 0.3);
+  position: absolute;
+  top: 19%;
+  left: 38%;
+  transform: translate( -50%, -50%);
+  width: 20%;
+  height: 7%;
+  z-index: -1;
+}
+
+.Btf .flyer {
+  display: block;
+  width: auto;
+  height: 38%;
+  position: absolute;
+  top: 22%;
+  left: 37.5%;
+  transform: translate ( -50%, -50%);
+  margin-right: 50%;
+  z-index: -1;
+}
+
+.Btf .text {
+  display: block;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  font-size: 22px;
+  font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
+  font-weight: 400;
+  z-index: -1;
+  }
+
+.Btg {
+  display: block;
+  border-width: 5px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 20px 0px rgba(100, 100, 100, 0.3);
+  position: absolute;
+  top: 19%;
+  left: 62%;
+  transform: translate( -50%, -50%);
+  width: 20%;
+  height: 7%;
+  z-index: -1;
+}
+
+.Btg .banner {
+  display: block;
+  width: auto;
+  height: 42%;
+  position: absolute;
+  top: 22%;
+  left: 37.5%;
+  transform: translate ( -50%, -50%);
+  margin-right: 50%;
+  z-index: -1;
+}
+
+.Btg .text {
+  display: block;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  font-size: 22px;
+  font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
+  font-weight: 400;
+  z-index: -1;
+  }
+
+.Bth {
+  display: block;
+  border-width: 5px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 20px 0px rgba(100, 100, 100, 0.3);
+  position: absolute;
+  top: 19%;
+  left: 86%;
+  transform: translate( -50%, -50%);
+  width: 20%;
+  height: 7%;
+  z-index: -1;
+}
+
+.Bth .convite {
+  display: block;
+  width: auto;
+  height: 38%;
+  position: absolute;
+  top: 15%;
+  left: 37.5%;
+  transform: translate ( -50%, -50%);
+  margin-right: 50%;
+  z-index: -1;
+}
+
+.Bth .text {
+  display: block;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  font-size: 18px;
+  font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
+  font-weight: 400;
   z-index: -1;
   }
 
 @media (max-width: 768px) {
+  
   .menu-button-container {
     display: flex;
     z-index: 1;
   }
+  
   .menu {
     position: absolute;
     top: 0;
@@ -164,6 +458,7 @@
     align-items: center;
     z-index: 1;
   }
+  
   #menu-toggle ~ .menu li {
     height: 0;
     margin: 0;
@@ -172,6 +467,7 @@
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     z-index: 1;
   }
+  
   #menu-toggle:checked ~ .menu li {
     border: 1px solid #333;
     height: 1em;
@@ -179,6 +475,7 @@
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     z-index: 1;
   }
+  
   .menu > li {
     display: flex;
     justify-content: center;
@@ -191,11 +488,13 @@
     font-weight: 500;
     z-index: 1;
   }
+  
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
     z-index: 1;
     
   }
+  
   .menu > li a {
     text-decoration: none;
     color: #fff;
@@ -203,33 +502,293 @@
     font-weight: 500;
     z-index: 1;
   }
-  .Bt {
+  
+  .Bta {
     border-width: 5px;
     border-color: #000
     border-style: solid;
     border-radius: 10px;
     background-color: #000
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -109%, -254%);
     width: 40%;
     height: 15%;
     z-index: -1;
   }
-  .Bt .paint {
+  
+  .Bta .logom {
     width: auto;
-    height: 42%;
+    height: 65px;
     position: absolute;
-    top: 15%;
-    left: 36.5%;
-    margin-right: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -85%);
     z-index: -1;
   }
-  .Bt .text {
+  
+  .Bta .text {
     position: absolute;
-    top: 45%;
-    left: 26.5%;
-    font-size: 25px;
+    top: 60%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    font-size: 22px;
+    font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
+    font-weight: 400;
+    z-index: -1;
+  }
+  
+  .Btb {
+    border-width: 5px;
+    border-color: #000
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #000
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( 9%, -254%);
+    width: 40%;
+    height: 15%;
+    z-index: -1;
+  }
+  
+  .Btb .perfil {
+    width: auto;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -90%);
+    z-index: -1;
+  }
+  
+  .Btb .text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    font-size: 19px;
     font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
     font-weight: 600;
     z-index: -1;
   }
+  
+  .Btc {
+    border-width: 5px;
+    border-color: #000
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #000
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -109%, -126%);
+    width: 40%;
+    height: 15%;
+    z-index: -1;
   }
+  
+  .Btc .edi {
+    width: auto;
+    height: 65px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -92%);
+    z-index: -1;
+  }
+  
+  .Btc .text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    font-size: 19px;
+    font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
+    font-weight: 570;
+    z-index: -1;
+  }
+  
+  .Btd {
+    border-width: 5px;
+    border-color: #000
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #000
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( 9%, -126%);
+    width: 40%;
+    height: 15%;
+    z-index: -1;
+  }
+  
+  .Btd .sop {
+    width: auto;
+    height: 52px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -100%);
+    z-index: -1;
+  }
+  
+  .Btd .text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    font-size: 19px;
+    font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
+    font-weight: 400;
+    z-index: -1;
+  }
+  
+  .Bte {
+    border-width: 5px;
+    border-color: #000
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #000
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -109%, -0%);
+    width: 40%;
+    height: 15%;
+    z-index: -1;
+  }
+  
+  .Bte .thumb {
+    width: auto;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -85%);
+    z-index: -1;
+  }
+  
+  .Bte .text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    font-size: 21px;
+    font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
+    font-weight: 570;
+    z-index: -1;
+  }
+  
+  .Btf {
+    border-width: 5px;
+    border-color: #000
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #000
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( 10%, -0%);
+    width: 40%;
+    height: 15%;
+    z-index: -1;
+  }
+  
+  .Btf .flyer {
+    width: auto;
+    height: 57px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -80%);
+    z-index: -1;
+  }
+  
+  .Btf .text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    font-size: 21px;
+    font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
+    font-weight: 570;
+    z-index: -1;
+  }
+  
+  .Btg {
+    border-width: 5px;
+    border-color: #000
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #000
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -109%, 126%);
+    width: 40%;
+    height: 15%;
+    z-index: -1;
+  }
+  
+  .Btg .banner {
+    width: auto;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -80%);
+    z-index: -1;
+  }
+  
+  .Btg .text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    font-size: 21px;
+    font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
+    font-weight: 570;
+    z-index: -1;
+  }
+  
+  .Bth {
+    border-width: 5px;
+    border-color: #000
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #000
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( 10%, 126%);
+    width: 40%;
+    height: 15%;
+    z-index: -1;
+  }
+  
+  .Bth .convite {
+    width: auto;
+    height: 52px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -95%);
+    z-index: -1;
+  }
+  
+  .Bth .text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    font-size: 18px;
+    font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
+    font-weight: 570;
+    z-index: -1;
+  }
+  
+}
